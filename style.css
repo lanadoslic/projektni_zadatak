@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "LanaDoslic";
+    src: url("LanaDoslic.ttf/font");
+}
+
+/* Body */
+body {
+    margin: 0;
+    font-family: "LanaDoslic", sans-serif;
+	background-image: url("slike/pozadina.jpg");
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navigacija */
+nav {
+    background-color: #D8BFD8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #388E3C;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #800080;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(255,255,255,0.8);
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Main section */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+}
+
+.slike {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.slike img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+video, iframe {
+    border-radius: 0px;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}

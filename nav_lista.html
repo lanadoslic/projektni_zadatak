@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navigacija</title>
+	<style>
+	
+	@font-face {
+    font-family: "LanaDoslic";
+    src:url("font/LanaDoslic.ttf"); 
+	}
+	ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:LightCoral;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "LanaDoslic", sans-serif; 
+			/*font-family: "LanaDoslic", sans-serif; 
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+	
+	</style>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="#">link1</a></li>
+		<li><a href="#">link2</a></li>
+		<li><a href="#">link3</a></li>
+	</ul>
+</nav>
+<a href="#">link4</a>
+</body>
+</html>
