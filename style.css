@@ -7,14 +7,15 @@
 body {
     margin: 0;
     font-family: "LanaDoslic", sans-serif;
-	background-image: url("slike/pozadina.jpg");
+	background-color: #f8f8f8;
     background-color: #f5f5f5;
     color: #333;
 }
 
 /* Navigacija */
 nav {
-    background-color: #D8BFD8;
+  background-color: #8E4D92;
+transform: translateY(-2px);
 }
 
 nav ul {
@@ -31,14 +32,17 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 15px 25px;
+    padding: 15px 28px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    border: 2px solid #388E3C;
-    border-radius: 5px;
+    background-color: #B57BB5;
+    border-radius: 14px;
     transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
+
 
 nav ul li a:hover,
 nav ul li a.active {
@@ -80,13 +84,16 @@ main {
 
 .slike {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     margin: 20px 0;
 }
 
 .slike img {
-    width: 250px;
-    height: auto;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px;
 }
 .video-container {
